@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
+from zjazd_3.eda import kolumny_numeryczne
+
 # 1. pobieranie danych
 url = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-31/beers.csv"
 
@@ -22,3 +24,57 @@ except Exception as e:
     df = pd.DataFrame(data)
 
 print(df)
+
+# 2. Podstawowe info
+print('\n' + '='*50)
+print(f'Wymiary danych: {df.shape}')
+print(f'Liczba wierszy: {df.shape[0]}')
+print(f'Liczba kolumn: {df.shape[1]}')
+
+# 3. Podgląd danych
+print("Pierwsze 5 piw:")
+print(df.head())
+print("\nOstatnie 5 piw:")
+print(df.tail())
+# print('\nDescribe')
+# print(df.describe())
+
+# 4. Typy danych
+print(f'{df.info()}')
+
+# 5. Statystyki numeryczne
+kolumny_numeryczne = df.select_dtypes(include='number').columns
+if len(kolumny_numeryczne) > 0:
+    print('Stasystyki dla chech numerycznych:')
+    print(df[kolumny_numeryczne].describe())
+else:
+    print('Brak kolumn numerycznych w danych')
+
+# 6. Statystyki kategoryczne
+print("\n" + "="*50)
+print("STATYSTYKI KATEGORYCZNE")
+print("="*50)
+
+kolumny_tekstowe = df.select_dtypes(include='object').columns
+if len (kolumny_tekstowe) > 0:
+    for kolumna in kolumny_tekstowe:
+        print(f'\nKolumna: {kolumna}')
+        print(f'Liczba unikalnych wartości: {df[kolumna].unique()}')
+        print('3 najczęstrzych wartości')
+        print(df[kolumna].value_counts().head(3))
+else:
+    print('Brak kolumn kategorycznych w danych')
+
+# 7. Brakujące wartości
+print("\n" + "="*50)
+print("BRAKUJĄCE WARTOŚCI")
+print("="*50)
+
+brakujace = df.isnull().sum()
+if brakujace.sum() > 0:
+    print('Kolumny z brakującymi wartościami:')
+    for kolumna in df.columns:
+        if df[kolumna].isnull().sum() > 0:
+            braki_liczbowo = df[kolumna].isnull().sum()
+            braki_procentowo = (braki_liczbowo / len(df)) * 100
+            print(f'    {kolumna}: {braki_liczbowo} ({braki_procentowo:.1f})%')
