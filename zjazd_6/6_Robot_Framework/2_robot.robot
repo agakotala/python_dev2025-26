@@ -24,4 +24,21 @@ For loop in range with index
         log to console    uzytkownik: ${imiona}[${i}] ${nazwiska}[${i}]
     END
 
+For loop in dictionary
+    Log    ${dictionary}
+    FOR    ${item}    IN    &{dictionary}
+        Log to console    klucz i wartosc: ${item}
+        Log to console    klucz: ${item}[0]
+        Log to console    wartosc: ${item}[1]
+    END
 
+Zagniezdzone
+    @{letters}  create list   a    b    c    d
+    @{numbers}    create list   ${1}    ${2}    ${3}
+    Log    ${letters}
+    Log    ${numbers}
+    FOR    ${letter}    IN    @{letters}
+        FOR    ${number}    IN    @{numbers}
+            Log    ${letter} ${number}
+        END
+    END
