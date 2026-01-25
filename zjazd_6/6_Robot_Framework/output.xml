@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.7 on win32)" generated="2026-01-25T11:42:52.225701" rpa="false" schemaversion="5">
+<suite id="s1" name="1 Basic" source="C:\Users\student-wroclaw\Desktop\python_dev2025-26\zjazd_6\6_Robot_Framework\1_basic.robot">
+<test id="s1-t1" name="Successful Login Wikipedia" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:42:52.525162" level="INFO">Opening browser 'chrome' to base url 'https://pl.wikipedia.org/'.</msg>
+<arg>https://pl.wikipedia.org/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-25T11:42:52.524862" elapsed="2.492928"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:42:56.019088" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:42:55.018338" elapsed="1.000939"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-01-25T11:42:56.019797" elapsed="0.041592"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:42:57.062690" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:42:56.061938" elapsed="1.000916"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:42:57.064967" level="INFO">Clicking element 'pt-login-2'.</msg>
+<arg>pt-login-2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:42:57.063471" elapsed="1.330724"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:42:59.395843" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:42:58.394788" elapsed="1.001218"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:42:59.396919" level="INFO">Typing text 'RobotTests' into text field 'wpName1'.</msg>
+<arg>wpName1</arg>
+<arg>${wikipedia login}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:42:59.396557" elapsed="0.104873"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:43:00.502698" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:42:59.501967" elapsed="1.000923"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:43:00.503821" level="INFO">Typing password into text field 'wpPassword1'.</msg>
+<msg time="2026-01-25T11:43:00.549826" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>wpPassword1</arg>
+<arg>${wikipedia correct password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:43:00.503468" elapsed="0.113598"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:43:01.618659" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:43:00.618066" elapsed="1.000758"/>
+</kw>
+<kw name="Checkbox Should Not Be Selected" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:43:01.619505" level="INFO">Verifying checkbox 'wpRemember' is not selected.</msg>
+<arg>wpRemember</arg>
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<status status="PASS" start="2026-01-25T11:43:01.619251" elapsed="0.029351"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:43:01.649293" level="INFO">Selecting checkbox 'wpRemember'.</msg>
+<arg>wpRemember</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:43:01.649029" elapsed="0.084117"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:43:02.734037" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:43:01.733549" elapsed="1.000673"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:43:02.735152" level="INFO">Clicking button 'wpLoginAttempt'.</msg>
+<arg>wpLoginAttempt</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:43:02.734840" elapsed="5.224123"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:43:08.959919" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:43:07.959379" elapsed="1.000792"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>pt-userpage-2</arg>
+<arg>3</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-01-25T11:43:08.960756" elapsed="0.027628"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-01-25T11:43:09.011739" level="INFO">${username} = RobotTests</msg>
+<var>${username}</var>
+<arg>pt-userpage-2</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-25T11:43:08.988798" elapsed="0.023002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Zalogowany uzytkownik: ${username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-25T11:43:09.012324" elapsed="0.000565"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-25T11:43:09.013457" level="INFO">Zalogowany uzytkownik: RobotTests</msg>
+<arg>Zalogowany uzytkownik: ${username}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-25T11:43:09.013202" elapsed="0.000302"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${username}</arg>
+<arg>${wikipedia login}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-01-25T11:43:09.013752" elapsed="0.000308"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-25T11:43:12.014933" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-25T11:43:09.014268" elapsed="3.000831"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-25T11:43:12.015722" elapsed="2.186496"/>
+</kw>
+<status status="PASS" start="2026-01-25T11:42:52.523686" elapsed="21.679001"/>
+</test>
+<status status="PASS" start="2026-01-25T11:42:52.227377" elapsed="21.976555"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="1 Basic" id="s1" pass="1" fail="0" skip="0">1 Basic</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
