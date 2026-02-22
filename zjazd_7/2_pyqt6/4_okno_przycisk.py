@@ -7,9 +7,16 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle('Moja aplikacja')
         button = QPushButton('przycisk')
+        button.clicked.connect(self.button_clicked)
+        button.released.connect(self.button_released)
         self.setFixedSize(QSize(600, 200))
         self.setCentralWidget(button)
 
+    def button_clicked(self):
+        print('Wciśnięty')
+
+    def button_released(self):
+        print('Puszczony')
 
 app = QApplication(sys.argv)
 window = MainWindow()
