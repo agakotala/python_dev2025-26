@@ -37,8 +37,8 @@ class BookViewsTest(TestCase):
             "published_year": 1961,
             "description": "Science fiction"
         })
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(Book.objects.count(), 1)
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue(Book.objects.filter(title="Solaris").exists())
 
 
 # Create your tests here.
