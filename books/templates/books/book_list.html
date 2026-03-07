@@ -1,0 +1,28 @@
+{% extends "books/base.html" %}
+
+{% block title %}Lista książek{% endblock %}
+
+{% block content %}
+<h1>Moja mini biblioteka</h1>
+
+<form method="get">
+    <input type="text" name="q" value="{{ query }}" placeholder="Szukaj po tytule lub autorze">
+    <button type="submit">Szukaj</button>
+</form>
+
+{% if books %}
+    {% for book in books %}
+        <div class="card">
+            <h2>{{ book.title }}</h2>
+            <p><strong>Autor:</strong> {{ book.author }}</p>
+            <p><strong>Rok wydania:</strong> {{ book.published_year }}</p>
+            <a class="button" href="{% url 'book_detail' book.id %}">Zobacz szczegóły</a>
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="card">
+        <p>Nie znaleziono książek.</p>
+    </div>
+{% endif %}
+{% endblock %}
+
