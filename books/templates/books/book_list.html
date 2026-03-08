@@ -3,26 +3,49 @@
 {% block title %}Lista książek{% endblock %}
 
 {% block content %}
-<h1>Moja mini biblioteka</h1>
+    <h1>Lista książek</h1>
 
-<form method="get">
-    <input type="text" name="q" value="{{ query }}" placeholder="Szukaj po tytule lub autorze">
-    <button type="submit">Szukaj</button>
-</form>
+    <form method="get">
+        <input
+            type="text"
+            name="q"
+            value="{{ query }}"
+            placeholder="Szukaj po tytule lub autorze">
 
-{% if books %}
-    {% for book in books %}
-        <div class="card">
-            <h2>{{ book.title }}</h2>
-            <p><strong>Autor:</strong> {{ book.author }}</p>
-            <p><strong>Rok wydania:</strong> {{ book.published_year }}</p>
-            <a class="button" href="{% url 'book_detail' book.id %}">Zobacz szczegóły</a>
-        </div>
-    {% endfor %}
-{% else %}
-    <div class="card">
-        <p>Nie znaleziono książek.</p>
-    </div>
-{% endif %}
+        <select name="genre">
+            <option value="">Wszystkie gatunki</option>
+
+            {% for genre_value in genres %}
+                <option value="{{ genre_value }}" {% if genre_value == selected_genre %}selected{% endif %}>
+                    {{ genre_value }}
+                </option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Filtruj</button>
+    </form>
+
+    {% if books %}
+        <ul>
+            {% for book in books %}
+                <li>
+                    <a href="{% url 'book_detail' book.pk %}">
+                        {{ book.title }}
+                    </a>
+
+                     - {{ book.author }}
+
+                    {% if book.published_year %}
+                        ({{ book.published_year }})
+                    {% endif %}
+
+                    {% if book.genre %}
+                        - {{ book.genre }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Brak książek spełniających kryteria.</p>
+    {% endif %}
 {% endblock %}
-

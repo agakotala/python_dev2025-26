@@ -1,6 +1,8 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 class Book(models.Model):
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=300)
     author = models.CharField(max_length=150)
     published_year = models.PositiveIntegerField(null=True, blank=True)

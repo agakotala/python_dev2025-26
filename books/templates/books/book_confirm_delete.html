@@ -4,13 +4,16 @@
 
 {% block content %}
     <h1>Usuń książkę</h1>
-    <p>Czy na pewno chcesz usunąć książkę: {{ book.title }}?</p>
+
+    <p>Czy na pewno chcesz usunąć książkę: <strong>{{ book.title }}</strong>?</p>
 
     <form method="post">
         {% csrf_token %}
         <button type="submit">Tak, usuń</button>
     </form>
 
-    <a href="{% url 'book_detail' book.id %}">Anuluj</a>
+    <p>
+        <a href="{% url 'book_detail' book.id %}">Anuluj</a>
+    </p>
 {% endblock %}
 

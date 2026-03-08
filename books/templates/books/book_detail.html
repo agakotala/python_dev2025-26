@@ -1,14 +1,26 @@
 {% extends "books/base.html" %}
 
-{% block title %}{{ book.title }}{% endblock %}
+{% block title %}Szczegóły książki{% endblock %}
 
 {% block content %}
-<h1>{{ book.title }}</h1>
-<p>Autor: {{ book.author }}</p>
-<p>Rok wydania: {{ book.published_year }}</p>
-<p>Opis: {{ book.description }}</p>
+    <h1>{{ book.title }}</h1>
 
-<a href="{% url 'book_update' book.id %}">Edytuj</a><br>
-<a href="{% url 'book_delete' book.id %}">Usuń</a>
+    <p><strong>Autor:</strong> {{ book.author }}</p>
+    <p><strong>Rok wydania:</strong> {{ book.published_year|default:"brak danych" }}</p>
+    <p><strong>Gatunek:</strong> {{ book.genre|default:"brak danych" }}</p>
+    <p><strong>Opis:</strong> {{ book.description|default:"brak opisu" }}</p>
+    <p><strong>Dodano:</strong> {{ book.created_at }}</p>
+
+    <p>
+        <a href="{% url 'book_update' book.pk %}">Edytuj</a>
+    </p>
+
+    <p>
+        <a href="{% url 'book_delete' book.pk %}">Usuń</a>
+    </p>
+
+    <p>
+        <a href="{% url 'book_list' %}">Wróć do listy</a>
+    </p>
 {% endblock %}
 
