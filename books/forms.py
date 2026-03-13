@@ -1,6 +1,8 @@
 from django.utils import timezone
 from django import forms
 from .models import Book
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
 
 class BookForm(forms.ModelForm):
     class Meta:
@@ -36,4 +38,11 @@ class BookForm(forms.ModelForm):
             if year > current_year:
                 raise forms.ValidationError(f"Rok wydania nie może być większy niż aktualny rok {current_year}.")
         return year
+
+class RegisterForm(UserCreationForm):
+    email = forms.EmailField(required=True)
+    class Meta:
+        model = User
+        fields = ["username", "email", "password1", "password2"]
+
 
