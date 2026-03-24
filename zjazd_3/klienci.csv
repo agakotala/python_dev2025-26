@@ -1,0 +1,1001 @@
+klient_id,imię,miasto,status
+1,Kasia,Warszawa,1
+2,Ewa,Nowy Sącz,0
+3,Kasia,Pcim Dolny,1
+4,Kasia,Bobrowniki,1
+5,Ola,Komorniki,1
+6,Marta,Gdańsk,0
+7,Tomek,Gdańsk,1
+8,Anna,Kraków,1
+9,Adam,Komorniki,1
+10,Kasia,Laskowa,0
+11,Michał,Łódź,1
+12,Kasia,Bralin,1
+13,Ola,Laskowa,1
+14,Tomek,Kraków,1
+15,Michał,Laskowa,0
+16,Adam,Adamczycha,1
+17,Michał,Poznań,0
+18,Marta,Laskowa,0
+19,Ewa,Podrzecze,0
+20,Ewa,Podrzecze,1
+21,Adam,Łódź,0
+22,Tomek,Bralin,1
+23,Ewa,Poznań,0
+24,Jan,Pcim Dolny,0
+25,Ola,Komorniki,0
+26,Adam,Warszawa,0
+27,Adam,Nowy Sącz,0
+28,Anna,Poznań,0
+29,Anna,Wrocław,0
+30,Marta,Limanowa,0
+31,Marta,Nowy Sącz,1
+32,Anna,Kraków,1
+33,Ewa,Nowy Sącz,0
+34,Piotr,Wrocław,0
+35,Adam,Łódź,0
+36,Jan,Wrocław,1
+37,Adam,Adamczycha,0
+38,Kasia,Bralin,1
+39,Tomek,Podrzecze,1
+40,Ola,Laskowa,1
+41,Piotr,Warszawa,1
+42,Jan,Komorniki,1
+43,Kasia,Gdańsk,0
+44,Marta,Komorniki,0
+45,Jan,Kraków,0
+46,Anna,Nowy Sącz,0
+47,Adam,Bralin,0
+48,Jan,Gdańsk,1
+49,Tomek,Laskowa,0
+50,Michał,Podrzecze,0
+51,Marta,Bralin,1
+52,Ola,Komorniki,0
+53,Ola,Podrzecze,1
+54,Jan,Laskowa,0
+55,Michał,Kraków,1
+56,Adam,Komorniki,0
+57,Kasia,Gdańsk,0
+58,Piotr,Komorniki,1
+59,Adam,Poznań,1
+60,Kasia,Podrzecze,1
+61,Piotr,Gdańsk,1
+62,Michał,Bralin,1
+63,Piotr,Pcim Dolny,1
+64,Adam,Nowy Sącz,1
+65,Tomek,Gdańsk,1
+66,Jan,Pcim Dolny,0
+67,Kasia,Pcim Dolny,0
+68,Tomek,Podrzecze,1
+69,Kasia,Kraków,0
+70,Jan,Bralin,0
+71,Ewa,Łódź,0
+72,Piotr,Podrzecze,0
+73,Michał,Nowy Sącz,1
+74,Ewa,Adamczycha,0
+75,Ewa,Nowy Sącz,1
+76,Ola,Adamczycha,0
+77,Anna,Kraków,0
+78,Adam,Kraków,0
+79,Tomek,Bralin,1
+80,Tomek,Komorniki,0
+81,Tomek,Wrocław,1
+82,Tomek,Laskowa,0
+83,Adam,Laskowa,1
+84,Ewa,Nowy Sącz,0
+85,Adam,Laskowa,1
+86,Tomek,Limanowa,1
+87,Anna,Bobrowniki,0
+88,Marta,Adamczycha,1
+89,Jan,Podrzecze,0
+90,Tomek,Kraków,0
+91,Michał,Wrocław,0
+92,Marta,Komorniki,0
+93,Adam,Pcim Dolny,0
+94,Michał,Adamczycha,0
+95,Michał,Łódź,0
+96,Kasia,Łódź,0
+97,Michał,Pcim Dolny,0
+98,Tomek,Gdańsk,0
+99,Kasia,Bralin,0
+100,Ola,Gdańsk,1
+101,Ewa,Laskowa,1
+102,Michał,Podrzecze,0
+103,Anna,Komorniki,0
+104,Jan,Limanowa,0
+105,Michał,Wrocław,0
+106,Ola,Łódź,0
+107,Piotr,Bobrowniki,0
+108,Adam,Nowy Sącz,0
+109,Adam,Laskowa,0
+110,Ola,Warszawa,1
+111,Piotr,Laskowa,0
+112,Adam,Nowy Sącz,1
+113,Adam,Warszawa,0
+114,Adam,Poznań,0
+115,Ola,Kraków,1
+116,Ewa,Bobrowniki,0
+117,Jan,Pcim Dolny,1
+118,Ola,Kraków,0
+119,Piotr,Laskowa,0
+120,Michał,Kraków,1
+121,Ewa,Wrocław,0
+122,Ewa,Poznań,1
+123,Michał,Limanowa,0
+124,Anna,Poznań,1
+125,Kasia,Komorniki,1
+126,Jan,Nowy Sącz,0
+127,Jan,Łódź,0
+128,Anna,Wrocław,1
+129,Kasia,Bobrowniki,0
+130,Jan,Komorniki,0
+131,Piotr,Kraków,0
+132,Marta,Bobrowniki,1
+133,Marta,Adamczycha,1
+134,Jan,Bralin,1
+135,Tomek,Nowy Sącz,1
+136,Jan,Komorniki,1
+137,Michał,Limanowa,1
+138,Michał,Kraków,1
+139,Kasia,Podrzecze,1
+140,Adam,Adamczycha,1
+141,Ewa,Podrzecze,0
+142,Piotr,Gdańsk,1
+143,Anna,Poznań,0
+144,Jan,Limanowa,0
+145,Adam,Podrzecze,0
+146,Adam,Gdańsk,1
+147,Piotr,Wrocław,1
+148,Anna,Bobrowniki,1
+149,Michał,Adamczycha,1
+150,Ola,Limanowa,0
+151,Piotr,Gdańsk,1
+152,Adam,Pcim Dolny,1
+153,Marta,Bobrowniki,1
+154,Jan,Limanowa,1
+155,Kasia,Laskowa,1
+156,Marta,Bobrowniki,0
+157,Adam,Komorniki,1
+158,Ewa,Gdańsk,0
+159,Tomek,Kraków,1
+160,Anna,Laskowa,0
+161,Michał,Bralin,1
+162,Jan,Pcim Dolny,1
+163,Kasia,Nowy Sącz,0
+164,Ola,Podrzecze,0
+165,Michał,Warszawa,0
+166,Jan,Gdańsk,1
+167,Ola,Wrocław,0
+168,Kasia,Gdańsk,1
+169,Adam,Warszawa,1
+170,Tomek,Adamczycha,0
+171,Marta,Pcim Dolny,0
+172,Marta,Pcim Dolny,1
+173,Adam,Laskowa,1
+174,Michał,Nowy Sącz,0
+175,Adam,Limanowa,0
+176,Adam,Wrocław,0
+177,Jan,Laskowa,1
+178,Jan,Nowy Sącz,1
+179,Kasia,Wrocław,1
+180,Tomek,Wrocław,1
+181,Jan,Warszawa,1
+182,Kasia,Laskowa,1
+183,Ewa,Wrocław,0
+184,Adam,Łódź,1
+185,Adam,Adamczycha,1
+186,Michał,Bralin,1
+187,Ewa,Nowy Sącz,0
+188,Michał,Warszawa,1
+189,Ola,Bobrowniki,1
+190,Kasia,Pcim Dolny,0
+191,Kasia,Warszawa,1
+192,Adam,Bobrowniki,1
+193,Piotr,Kraków,1
+194,Ola,Kraków,1
+195,Kasia,Wrocław,1
+196,Jan,Komorniki,0
+197,Adam,Laskowa,0
+198,Michał,Bralin,0
+199,Ewa,Pcim Dolny,1
+200,Michał,Warszawa,1
+201,Marta,Laskowa,1
+202,Piotr,Warszawa,0
+203,Kasia,Warszawa,1
+204,Tomek,Łódź,1
+205,Anna,Kraków,0
+206,Piotr,Warszawa,1
+207,Adam,Łódź,0
+208,Kasia,Komorniki,0
+209,Ewa,Kraków,0
+210,Kasia,Łódź,1
+211,Anna,Laskowa,1
+212,Ewa,Limanowa,1
+213,Michał,Kraków,1
+214,Ewa,Bobrowniki,1
+215,Piotr,Podrzecze,1
+216,Michał,Limanowa,1
+217,Kasia,Nowy Sącz,0
+218,Adam,Laskowa,1
+219,Ola,Warszawa,0
+220,Adam,Pcim Dolny,1
+221,Kasia,Komorniki,1
+222,Anna,Bralin,1
+223,Ola,Laskowa,0
+224,Kasia,Łódź,0
+225,Tomek,Komorniki,0
+226,Piotr,Łódź,0
+227,Tomek,Łódź,1
+228,Michał,Łódź,0
+229,Marta,Laskowa,1
+230,Kasia,Pcim Dolny,1
+231,Jan,Nowy Sącz,0
+232,Jan,Gdańsk,0
+233,Ewa,Komorniki,0
+234,Adam,Łódź,0
+235,Adam,Gdańsk,0
+236,Adam,Pcim Dolny,0
+237,Tomek,Pcim Dolny,0
+238,Piotr,Limanowa,0
+239,Kasia,Kraków,1
+240,Anna,Podrzecze,0
+241,Ewa,Bralin,0
+242,Michał,Wrocław,1
+243,Ola,Podrzecze,0
+244,Michał,Laskowa,1
+245,Kasia,Wrocław,1
+246,Marta,Pcim Dolny,0
+247,Adam,Bobrowniki,1
+248,Ola,Podrzecze,1
+249,Tomek,Adamczycha,1
+250,Kasia,Poznań,1
+251,Marta,Kraków,0
+252,Tomek,Podrzecze,1
+253,Marta,Bralin,0
+254,Adam,Kraków,1
+255,Tomek,Gdańsk,1
+256,Piotr,Laskowa,1
+257,Jan,Kraków,1
+258,Michał,Gdańsk,0
+259,Piotr,Łódź,0
+260,Ola,Gdańsk,1
+261,Ewa,Adamczycha,1
+262,Jan,Laskowa,0
+263,Piotr,Limanowa,1
+264,Kasia,Bobrowniki,1
+265,Marta,Łódź,1
+266,Ola,Pcim Dolny,0
+267,Kasia,Warszawa,0
+268,Jan,Gdańsk,0
+269,Marta,Gdańsk,1
+270,Ola,Kraków,1
+271,Ewa,Pcim Dolny,0
+272,Jan,Podrzecze,0
+273,Ola,Poznań,0
+274,Piotr,Nowy Sącz,0
+275,Ola,Wrocław,1
+276,Jan,Gdańsk,0
+277,Adam,Bobrowniki,1
+278,Piotr,Podrzecze,0
+279,Kasia,Komorniki,1
+280,Jan,Poznań,0
+281,Adam,Wrocław,0
+282,Anna,Warszawa,0
+283,Ewa,Bobrowniki,0
+284,Adam,Nowy Sącz,1
+285,Anna,Adamczycha,0
+286,Michał,Bralin,1
+287,Marta,Kraków,1
+288,Adam,Nowy Sącz,1
+289,Tomek,Bralin,1
+290,Ewa,Podrzecze,0
+291,Adam,Kraków,1
+292,Anna,Wrocław,1
+293,Tomek,Bralin,1
+294,Ewa,Limanowa,0
+295,Tomek,Gdańsk,0
+296,Piotr,Łódź,0
+297,Anna,Poznań,0
+298,Ola,Bobrowniki,1
+299,Piotr,Pcim Dolny,1
+300,Ewa,Laskowa,0
+301,Ewa,Komorniki,1
+302,Jan,Bralin,1
+303,Anna,Gdańsk,1
+304,Michał,Łódź,0
+305,Michał,Adamczycha,0
+306,Ewa,Nowy Sącz,1
+307,Michał,Adamczycha,0
+308,Marta,Laskowa,0
+309,Jan,Podrzecze,0
+310,Ewa,Bobrowniki,0
+311,Michał,Laskowa,0
+312,Anna,Warszawa,1
+313,Adam,Gdańsk,0
+314,Ola,Kraków,1
+315,Piotr,Limanowa,1
+316,Piotr,Pcim Dolny,0
+317,Marta,Kraków,1
+318,Tomek,Łódź,1
+319,Anna,Adamczycha,1
+320,Tomek,Gdańsk,0
+321,Jan,Limanowa,0
+322,Ola,Laskowa,1
+323,Jan,Bralin,0
+324,Ewa,Gdańsk,0
+325,Anna,Laskowa,0
+326,Ewa,Komorniki,0
+327,Kasia,Podrzecze,1
+328,Michał,Warszawa,1
+329,Piotr,Wrocław,0
+330,Adam,Gdańsk,0
+331,Ewa,Łódź,1
+332,Tomek,Laskowa,1
+333,Kasia,Kraków,0
+334,Piotr,Podrzecze,1
+335,Ewa,Łódź,0
+336,Kasia,Pcim Dolny,0
+337,Kasia,Wrocław,1
+338,Anna,Podrzecze,1
+339,Jan,Warszawa,0
+340,Kasia,Wrocław,0
+341,Marta,Bobrowniki,1
+342,Jan,Laskowa,0
+343,Piotr,Bobrowniki,1
+344,Piotr,Łódź,0
+345,Piotr,Pcim Dolny,1
+346,Piotr,Nowy Sącz,1
+347,Marta,Poznań,1
+348,Ewa,Nowy Sącz,0
+349,Ola,Bralin,0
+350,Kasia,Warszawa,1
+351,Piotr,Adamczycha,0
+352,Jan,Bobrowniki,1
+353,Jan,Limanowa,1
+354,Kasia,Laskowa,0
+355,Ewa,Poznań,0
+356,Adam,Gdańsk,1
+357,Adam,Nowy Sącz,0
+358,Ola,Pcim Dolny,0
+359,Ewa,Nowy Sącz,1
+360,Kasia,Kraków,1
+361,Adam,Limanowa,0
+362,Adam,Komorniki,1
+363,Adam,Łódź,1
+364,Tomek,Pcim Dolny,0
+365,Marta,Komorniki,1
+366,Kasia,Wrocław,1
+367,Michał,Podrzecze,0
+368,Anna,Wrocław,0
+369,Anna,Bobrowniki,1
+370,Ewa,Wrocław,1
+371,Kasia,Gdańsk,0
+372,Kasia,Bobrowniki,0
+373,Anna,Warszawa,0
+374,Ola,Kraków,0
+375,Anna,Limanowa,1
+376,Kasia,Adamczycha,0
+377,Adam,Warszawa,0
+378,Ola,Pcim Dolny,1
+379,Piotr,Komorniki,0
+380,Michał,Komorniki,1
+381,Tomek,Wrocław,0
+382,Marta,Gdańsk,0
+383,Piotr,Nowy Sącz,0
+384,Jan,Nowy Sącz,1
+385,Anna,Adamczycha,1
+386,Michał,Bobrowniki,0
+387,Anna,Pcim Dolny,1
+388,Anna,Podrzecze,1
+389,Piotr,Kraków,1
+390,Adam,Limanowa,1
+391,Adam,Podrzecze,1
+392,Tomek,Bobrowniki,1
+393,Ola,Gdańsk,0
+394,Anna,Kraków,0
+395,Ewa,Pcim Dolny,1
+396,Adam,Wrocław,0
+397,Kasia,Wrocław,0
+398,Michał,Laskowa,0
+399,Ewa,Wrocław,0
+400,Piotr,Poznań,1
+401,Piotr,Bralin,0
+402,Tomek,Wrocław,0
+403,Tomek,Bralin,1
+404,Ola,Poznań,1
+405,Kasia,Adamczycha,0
+406,Michał,Bralin,0
+407,Kasia,Łódź,0
+408,Jan,Poznań,0
+409,Tomek,Kraków,0
+410,Ola,Podrzecze,0
+411,Marta,Kraków,1
+412,Anna,Podrzecze,0
+413,Anna,Laskowa,0
+414,Marta,Łódź,1
+415,Adam,Podrzecze,1
+416,Kasia,Podrzecze,1
+417,Marta,Gdańsk,1
+418,Ola,Warszawa,0
+419,Michał,Warszawa,0
+420,Marta,Gdańsk,0
+421,Ola,Wrocław,0
+422,Tomek,Bralin,0
+423,Ewa,Gdańsk,0
+424,Piotr,Nowy Sącz,1
+425,Piotr,Podrzecze,0
+426,Jan,Podrzecze,1
+427,Kasia,Gdańsk,1
+428,Michał,Gdańsk,0
+429,Ewa,Nowy Sącz,1
+430,Ewa,Komorniki,0
+431,Tomek,Wrocław,1
+432,Marta,Kraków,0
+433,Kasia,Łódź,1
+434,Anna,Pcim Dolny,0
+435,Ewa,Bralin,0
+436,Ola,Podrzecze,0
+437,Anna,Adamczycha,0
+438,Jan,Łódź,0
+439,Marta,Gdańsk,1
+440,Marta,Nowy Sącz,1
+441,Michał,Wrocław,1
+442,Ewa,Poznań,0
+443,Tomek,Adamczycha,1
+444,Adam,Wrocław,0
+445,Adam,Limanowa,0
+446,Piotr,Limanowa,1
+447,Ola,Łódź,1
+448,Anna,Warszawa,0
+449,Jan,Limanowa,1
+450,Piotr,Limanowa,0
+451,Marta,Kraków,0
+452,Anna,Poznań,0
+453,Kasia,Nowy Sącz,0
+454,Ewa,Kraków,0
+455,Jan,Poznań,1
+456,Kasia,Nowy Sącz,1
+457,Tomek,Bralin,0
+458,Ewa,Bralin,0
+459,Anna,Laskowa,1
+460,Ewa,Pcim Dolny,1
+461,Piotr,Podrzecze,0
+462,Michał,Komorniki,1
+463,Piotr,Komorniki,0
+464,Tomek,Limanowa,1
+465,Ola,Adamczycha,0
+466,Kasia,Nowy Sącz,1
+467,Piotr,Podrzecze,0
+468,Michał,Limanowa,1
+469,Ola,Kraków,1
+470,Piotr,Pcim Dolny,0
+471,Marta,Kraków,1
+472,Michał,Bralin,0
+473,Kasia,Nowy Sącz,1
+474,Jan,Bobrowniki,0
+475,Adam,Kraków,1
+476,Ola,Adamczycha,0
+477,Marta,Poznań,1
+478,Jan,Warszawa,0
+479,Anna,Adamczycha,1
+480,Michał,Wrocław,0
+481,Marta,Łódź,0
+482,Ewa,Podrzecze,0
+483,Anna,Laskowa,1
+484,Anna,Limanowa,0
+485,Ola,Kraków,1
+486,Michał,Warszawa,0
+487,Marta,Kraków,1
+488,Tomek,Pcim Dolny,0
+489,Marta,Poznań,1
+490,Piotr,Laskowa,1
+491,Anna,Wrocław,0
+492,Kasia,Nowy Sącz,1
+493,Anna,Pcim Dolny,1
+494,Anna,Gdańsk,0
+495,Adam,Laskowa,1
+496,Ewa,Kraków,1
+497,Tomek,Bralin,1
+498,Jan,Pcim Dolny,0
+499,Jan,Wrocław,1
+500,Ewa,Komorniki,0
+501,Anna,Adamczycha,1
+502,Jan,Warszawa,1
+503,Michał,Warszawa,1
+504,Tomek,Podrzecze,0
+505,Jan,Wrocław,1
+506,Ewa,Warszawa,1
+507,Piotr,Pcim Dolny,0
+508,Jan,Podrzecze,1
+509,Tomek,Bobrowniki,0
+510,Ola,Warszawa,0
+511,Ola,Laskowa,1
+512,Michał,Komorniki,0
+513,Marta,Bralin,1
+514,Marta,Poznań,0
+515,Jan,Komorniki,0
+516,Kasia,Gdańsk,1
+517,Piotr,Wrocław,0
+518,Ewa,Pcim Dolny,0
+519,Piotr,Limanowa,0
+520,Ola,Bralin,0
+521,Jan,Kraków,0
+522,Tomek,Pcim Dolny,1
+523,Ewa,Komorniki,0
+524,Piotr,Komorniki,1
+525,Tomek,Warszawa,0
+526,Ewa,Pcim Dolny,1
+527,Piotr,Limanowa,1
+528,Michał,Kraków,0
+529,Ola,Podrzecze,0
+530,Anna,Warszawa,0
+531,Ewa,Bralin,1
+532,Ola,Łódź,0
+533,Adam,Warszawa,1
+534,Kasia,Gdańsk,1
+535,Jan,Bobrowniki,1
+536,Adam,Łódź,0
+537,Tomek,Gdańsk,0
+538,Ewa,Limanowa,1
+539,Jan,Wrocław,1
+540,Jan,Kraków,0
+541,Adam,Poznań,1
+542,Adam,Podrzecze,0
+543,Anna,Poznań,1
+544,Piotr,Laskowa,0
+545,Ewa,Laskowa,1
+546,Ola,Limanowa,0
+547,Marta,Wrocław,1
+548,Ewa,Bobrowniki,0
+549,Ewa,Bobrowniki,0
+550,Ewa,Laskowa,1
+551,Jan,Bralin,1
+552,Tomek,Bralin,0
+553,Jan,Komorniki,1
+554,Tomek,Adamczycha,0
+555,Adam,Warszawa,1
+556,Marta,Pcim Dolny,0
+557,Jan,Gdańsk,0
+558,Tomek,Laskowa,0
+559,Jan,Limanowa,0
+560,Kasia,Komorniki,0
+561,Jan,Nowy Sącz,0
+562,Marta,Gdańsk,1
+563,Marta,Warszawa,1
+564,Tomek,Wrocław,1
+565,Tomek,Kraków,0
+566,Adam,Bobrowniki,0
+567,Marta,Poznań,0
+568,Marta,Warszawa,0
+569,Anna,Podrzecze,1
+570,Ewa,Łódź,1
+571,Michał,Limanowa,0
+572,Jan,Bobrowniki,1
+573,Piotr,Poznań,1
+574,Adam,Podrzecze,0
+575,Ewa,Kraków,1
+576,Michał,Podrzecze,0
+577,Anna,Nowy Sącz,1
+578,Piotr,Wrocław,0
+579,Tomek,Bralin,0
+580,Marta,Łódź,0
+581,Kasia,Gdańsk,0
+582,Adam,Poznań,1
+583,Ola,Łódź,0
+584,Marta,Pcim Dolny,0
+585,Kasia,Warszawa,0
+586,Michał,Pcim Dolny,1
+587,Tomek,Warszawa,0
+588,Piotr,Wrocław,1
+589,Michał,Łódź,0
+590,Marta,Bralin,1
+591,Marta,Kraków,1
+592,Piotr,Adamczycha,0
+593,Ola,Adamczycha,1
+594,Kasia,Bralin,0
+595,Michał,Laskowa,0
+596,Tomek,Podrzecze,0
+597,Marta,Komorniki,1
+598,Michał,Laskowa,1
+599,Ola,Łódź,0
+600,Michał,Pcim Dolny,0
+601,Piotr,Komorniki,1
+602,Tomek,Adamczycha,0
+603,Anna,Laskowa,0
+604,Piotr,Adamczycha,0
+605,Michał,Limanowa,1
+606,Anna,Bobrowniki,1
+607,Marta,Adamczycha,1
+608,Anna,Bralin,0
+609,Ola,Laskowa,0
+610,Jan,Warszawa,0
+611,Ola,Komorniki,1
+612,Piotr,Limanowa,0
+613,Jan,Poznań,0
+614,Piotr,Laskowa,0
+615,Adam,Limanowa,0
+616,Tomek,Bralin,1
+617,Ewa,Adamczycha,1
+618,Marta,Łódź,0
+619,Marta,Bobrowniki,1
+620,Adam,Podrzecze,1
+621,Michał,Bobrowniki,0
+622,Kasia,Poznań,0
+623,Piotr,Kraków,1
+624,Ewa,Komorniki,0
+625,Ewa,Kraków,1
+626,Ola,Wrocław,0
+627,Ola,Laskowa,1
+628,Kasia,Podrzecze,0
+629,Michał,Nowy Sącz,1
+630,Adam,Gdańsk,1
+631,Anna,Limanowa,1
+632,Ola,Poznań,0
+633,Michał,Łódź,1
+634,Tomek,Laskowa,1
+635,Marta,Łódź,0
+636,Marta,Gdańsk,0
+637,Michał,Komorniki,1
+638,Kasia,Wrocław,1
+639,Adam,Nowy Sącz,0
+640,Ewa,Gdańsk,0
+641,Kasia,Bobrowniki,0
+642,Michał,Adamczycha,0
+643,Adam,Bobrowniki,0
+644,Adam,Adamczycha,1
+645,Piotr,Warszawa,0
+646,Jan,Pcim Dolny,1
+647,Marta,Poznań,1
+648,Michał,Komorniki,1
+649,Ewa,Pcim Dolny,0
+650,Jan,Gdańsk,1
+651,Tomek,Nowy Sącz,1
+652,Ola,Adamczycha,0
+653,Piotr,Adamczycha,1
+654,Ola,Bobrowniki,1
+655,Jan,Wrocław,0
+656,Jan,Wrocław,1
+657,Ola,Adamczycha,1
+658,Ewa,Bralin,1
+659,Ewa,Kraków,0
+660,Anna,Bobrowniki,0
+661,Tomek,Laskowa,0
+662,Ewa,Nowy Sącz,1
+663,Tomek,Kraków,1
+664,Tomek,Poznań,0
+665,Jan,Adamczycha,1
+666,Tomek,Poznań,1
+667,Piotr,Poznań,0
+668,Ola,Łódź,0
+669,Anna,Kraków,1
+670,Michał,Łódź,1
+671,Kasia,Pcim Dolny,1
+672,Anna,Bobrowniki,0
+673,Piotr,Laskowa,0
+674,Anna,Gdańsk,0
+675,Tomek,Bobrowniki,0
+676,Jan,Nowy Sącz,1
+677,Kasia,Limanowa,0
+678,Ewa,Kraków,0
+679,Jan,Bobrowniki,0
+680,Tomek,Limanowa,0
+681,Tomek,Bralin,0
+682,Kasia,Bobrowniki,1
+683,Kasia,Wrocław,1
+684,Marta,Kraków,0
+685,Adam,Pcim Dolny,1
+686,Adam,Komorniki,0
+687,Jan,Kraków,0
+688,Ewa,Komorniki,1
+689,Anna,Łódź,1
+690,Tomek,Laskowa,0
+691,Tomek,Gdańsk,0
+692,Marta,Podrzecze,0
+693,Jan,Gdańsk,1
+694,Jan,Bobrowniki,0
+695,Ola,Adamczycha,0
+696,Kasia,Nowy Sącz,0
+697,Ewa,Nowy Sącz,1
+698,Kasia,Gdańsk,0
+699,Ewa,Wrocław,0
+700,Piotr,Pcim Dolny,1
+701,Michał,Komorniki,0
+702,Adam,Limanowa,0
+703,Adam,Nowy Sącz,1
+704,Ewa,Bobrowniki,0
+705,Adam,Pcim Dolny,1
+706,Kasia,Podrzecze,1
+707,Tomek,Wrocław,0
+708,Kasia,Laskowa,0
+709,Ewa,Bobrowniki,0
+710,Jan,Adamczycha,0
+711,Kasia,Gdańsk,1
+712,Adam,Łódź,0
+713,Marta,Wrocław,1
+714,Ola,Nowy Sącz,0
+715,Tomek,Poznań,0
+716,Adam,Nowy Sącz,0
+717,Marta,Kraków,1
+718,Ewa,Pcim Dolny,0
+719,Piotr,Bralin,0
+720,Marta,Wrocław,0
+721,Michał,Poznań,0
+722,Piotr,Nowy Sącz,1
+723,Anna,Komorniki,0
+724,Tomek,Limanowa,1
+725,Adam,Podrzecze,1
+726,Anna,Podrzecze,1
+727,Kasia,Gdańsk,1
+728,Ewa,Gdańsk,1
+729,Tomek,Wrocław,1
+730,Jan,Wrocław,0
+731,Piotr,Laskowa,1
+732,Jan,Kraków,1
+733,Anna,Warszawa,1
+734,Marta,Limanowa,0
+735,Marta,Gdańsk,0
+736,Ewa,Warszawa,1
+737,Anna,Warszawa,0
+738,Ola,Bobrowniki,1
+739,Tomek,Adamczycha,1
+740,Piotr,Kraków,0
+741,Marta,Łódź,1
+742,Marta,Łódź,0
+743,Jan,Komorniki,0
+744,Jan,Gdańsk,1
+745,Adam,Nowy Sącz,1
+746,Kasia,Poznań,0
+747,Ola,Nowy Sącz,1
+748,Jan,Bralin,1
+749,Jan,Kraków,1
+750,Tomek,Kraków,0
+751,Adam,Adamczycha,0
+752,Jan,Pcim Dolny,1
+753,Piotr,Bralin,0
+754,Tomek,Warszawa,0
+755,Kasia,Pcim Dolny,0
+756,Anna,Komorniki,0
+757,Tomek,Nowy Sącz,0
+758,Anna,Komorniki,1
+759,Marta,Nowy Sącz,1
+760,Adam,Komorniki,1
+761,Kasia,Warszawa,0
+762,Adam,Komorniki,0
+763,Kasia,Łódź,1
+764,Adam,Gdańsk,0
+765,Tomek,Limanowa,1
+766,Adam,Łódź,1
+767,Michał,Bobrowniki,1
+768,Kasia,Kraków,0
+769,Anna,Limanowa,0
+770,Kasia,Wrocław,1
+771,Marta,Limanowa,1
+772,Piotr,Limanowa,1
+773,Michał,Łódź,1
+774,Ewa,Kraków,0
+775,Kasia,Limanowa,0
+776,Jan,Adamczycha,1
+777,Tomek,Adamczycha,1
+778,Tomek,Bobrowniki,0
+779,Adam,Łódź,0
+780,Adam,Łódź,1
+781,Tomek,Limanowa,1
+782,Ola,Warszawa,1
+783,Michał,Kraków,0
+784,Michał,Nowy Sącz,0
+785,Anna,Nowy Sącz,0
+786,Kasia,Podrzecze,1
+787,Ewa,Bobrowniki,1
+788,Tomek,Nowy Sącz,0
+789,Kasia,Limanowa,0
+790,Michał,Nowy Sącz,1
+791,Marta,Pcim Dolny,0
+792,Tomek,Pcim Dolny,0
+793,Kasia,Wrocław,1
+794,Michał,Kraków,0
+795,Piotr,Bobrowniki,1
+796,Michał,Łódź,1
+797,Adam,Laskowa,1
+798,Jan,Gdańsk,1
+799,Ola,Poznań,1
+800,Ola,Bralin,1
+801,Adam,Laskowa,1
+802,Adam,Nowy Sącz,0
+803,Tomek,Bobrowniki,1
+804,Piotr,Kraków,1
+805,Piotr,Komorniki,0
+806,Tomek,Kraków,0
+807,Kasia,Nowy Sącz,0
+808,Tomek,Limanowa,1
+809,Ewa,Limanowa,0
+810,Ewa,Laskowa,1
+811,Ola,Łódź,1
+812,Michał,Bralin,1
+813,Tomek,Wrocław,1
+814,Tomek,Limanowa,0
+815,Kasia,Poznań,0
+816,Anna,Bobrowniki,1
+817,Ola,Poznań,1
+818,Ola,Wrocław,1
+819,Ola,Warszawa,0
+820,Michał,Warszawa,1
+821,Adam,Kraków,1
+822,Marta,Komorniki,0
+823,Anna,Limanowa,0
+824,Michał,Pcim Dolny,1
+825,Ewa,Adamczycha,0
+826,Kasia,Adamczycha,0
+827,Adam,Laskowa,1
+828,Ewa,Podrzecze,0
+829,Adam,Wrocław,1
+830,Piotr,Kraków,0
+831,Ola,Pcim Dolny,1
+832,Adam,Adamczycha,1
+833,Jan,Limanowa,1
+834,Ola,Nowy Sącz,0
+835,Ola,Pcim Dolny,1
+836,Kasia,Komorniki,0
+837,Anna,Pcim Dolny,1
+838,Ewa,Nowy Sącz,1
+839,Adam,Adamczycha,0
+840,Adam,Komorniki,1
+841,Piotr,Wrocław,1
+842,Ola,Kraków,0
+843,Tomek,Łódź,1
+844,Marta,Poznań,1
+845,Tomek,Laskowa,1
+846,Adam,Kraków,1
+847,Tomek,Nowy Sącz,0
+848,Kasia,Podrzecze,0
+849,Jan,Pcim Dolny,1
+850,Adam,Łódź,0
+851,Adam,Nowy Sącz,1
+852,Jan,Wrocław,0
+853,Ewa,Gdańsk,1
+854,Jan,Nowy Sącz,1
+855,Tomek,Adamczycha,1
+856,Kasia,Adamczycha,1
+857,Piotr,Laskowa,1
+858,Ewa,Laskowa,1
+859,Michał,Poznań,0
+860,Piotr,Gdańsk,1
+861,Anna,Nowy Sącz,0
+862,Anna,Bobrowniki,1
+863,Anna,Limanowa,0
+864,Anna,Gdańsk,0
+865,Kasia,Pcim Dolny,0
+866,Piotr,Pcim Dolny,1
+867,Ola,Pcim Dolny,1
+868,Marta,Bralin,0
+869,Ewa,Pcim Dolny,1
+870,Michał,Komorniki,0
+871,Tomek,Kraków,1
+872,Adam,Laskowa,0
+873,Anna,Gdańsk,0
+874,Michał,Laskowa,1
+875,Adam,Podrzecze,0
+876,Marta,Gdańsk,1
+877,Michał,Kraków,0
+878,Piotr,Podrzecze,0
+879,Michał,Bralin,1
+880,Anna,Laskowa,1
+881,Marta,Podrzecze,1
+882,Tomek,Poznań,0
+883,Ola,Komorniki,1
+884,Jan,Nowy Sącz,0
+885,Anna,Podrzecze,0
+886,Adam,Gdańsk,1
+887,Marta,Pcim Dolny,1
+888,Piotr,Pcim Dolny,0
+889,Kasia,Adamczycha,0
+890,Marta,Bobrowniki,1
+891,Adam,Limanowa,1
+892,Jan,Laskowa,1
+893,Jan,Adamczycha,1
+894,Ewa,Poznań,1
+895,Ola,Gdańsk,0
+896,Adam,Gdańsk,0
+897,Jan,Adamczycha,0
+898,Ewa,Nowy Sącz,0
+899,Ewa,Wrocław,1
+900,Ewa,Bobrowniki,1
+901,Marta,Adamczycha,1
+902,Ewa,Komorniki,0
+903,Anna,Warszawa,0
+904,Adam,Laskowa,1
+905,Anna,Gdańsk,1
+906,Kasia,Komorniki,0
+907,Jan,Łódź,0
+908,Ola,Gdańsk,1
+909,Ewa,Wrocław,1
+910,Piotr,Podrzecze,0
+911,Piotr,Kraków,1
+912,Jan,Bobrowniki,1
+913,Kasia,Kraków,1
+914,Piotr,Nowy Sącz,0
+915,Anna,Łódź,0
+916,Michał,Łódź,0
+917,Marta,Bobrowniki,0
+918,Tomek,Bobrowniki,0
+919,Piotr,Limanowa,0
+920,Ola,Nowy Sącz,0
+921,Ewa,Bralin,1
+922,Ola,Bobrowniki,1
+923,Adam,Komorniki,1
+924,Marta,Kraków,1
+925,Anna,Podrzecze,1
+926,Kasia,Adamczycha,1
+927,Marta,Kraków,1
+928,Tomek,Bralin,0
+929,Michał,Warszawa,0
+930,Piotr,Laskowa,1
+931,Kasia,Kraków,1
+932,Kasia,Nowy Sącz,0
+933,Piotr,Pcim Dolny,1
+934,Piotr,Limanowa,1
+935,Piotr,Wrocław,0
+936,Piotr,Łódź,1
+937,Piotr,Nowy Sącz,0
+938,Kasia,Warszawa,1
+939,Jan,Adamczycha,0
+940,Jan,Łódź,0
+941,Ola,Nowy Sącz,0
+942,Jan,Adamczycha,1
+943,Tomek,Limanowa,0
+944,Jan,Bralin,1
+945,Kasia,Gdańsk,1
+946,Piotr,Bobrowniki,1
+947,Ewa,Warszawa,1
+948,Ewa,Bobrowniki,0
+949,Tomek,Poznań,0
+950,Adam,Warszawa,1
+951,Kasia,Komorniki,1
+952,Anna,Limanowa,0
+953,Marta,Wrocław,1
+954,Ola,Warszawa,0
+955,Anna,Komorniki,1
+956,Kasia,Limanowa,1
+957,Jan,Podrzecze,0
+958,Piotr,Laskowa,1
+959,Anna,Kraków,0
+960,Marta,Podrzecze,1
+961,Adam,Limanowa,1
+962,Ewa,Pcim Dolny,1
+963,Adam,Gdańsk,0
+964,Marta,Kraków,1
+965,Piotr,Pcim Dolny,1
+966,Jan,Adamczycha,1
+967,Marta,Wrocław,1
+968,Ola,Łódź,0
+969,Marta,Poznań,0
+970,Kasia,Kraków,1
+971,Jan,Podrzecze,0
+972,Piotr,Gdańsk,1
+973,Ewa,Nowy Sącz,1
+974,Ewa,Komorniki,1
+975,Marta,Pcim Dolny,0
+976,Kasia,Komorniki,0
+977,Anna,Limanowa,0
+978,Adam,Kraków,0
+979,Adam,Komorniki,0
+980,Adam,Łódź,0
+981,Anna,Bobrowniki,0
+982,Kasia,Limanowa,0
+983,Adam,Pcim Dolny,0
+984,Ola,Bobrowniki,1
+985,Anna,Gdańsk,0
+986,Anna,Warszawa,0
+987,Piotr,Komorniki,0
+988,Piotr,Łódź,0
+989,Jan,Limanowa,0
+990,Ola,Łódź,0
+991,Ola,Wrocław,0
+992,Jan,Bobrowniki,0
+993,Ola,Nowy Sącz,0
+994,Tomek,Limanowa,0
+995,Michał,Kraków,0
+996,Adam,Adamczycha,1
+997,Piotr,Nowy Sącz,1
+998,Jan,Adamczycha,0
+999,Jan,Warszawa,0
+1000,Ola,Warszawa,1

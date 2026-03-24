@@ -1,0 +1,52 @@
+[
+  {
+    "domain": "www.google.com",
+    "expiry": 1765705334,
+    "httpOnly": false,
+    "name": "EUULE",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "j+WzEsMTIsMTc2NTcwNDczNDA3OTAwMCxudWxsLFs1MTIxMDQ5NTEsMTg1ODQ0MjAzXSxudWxsLDEyOTU4LG51bGwsMTJd"
+  },
+  {
+    "domain": ".google.com",
+    "expiry": 1781256733,
+    "httpOnly": true,
+    "name": "__Secure-BUCKET",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "CKQF"
+  },
+  {
+    "domain": ".google.com",
+    "expiry": 1781515934,
+    "httpOnly": true,
+    "name": "NID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "527=PGiiuZGaY3M7NLiJzu-yZiBMy8rNgaFKdcobSvzwswTg5xNYH1lGVpvhZfvjXIVF4mPh9CLshTiEb_Jk8teI1WIS3V6MjsWXXrwRnnab8ni5uUEub_6EOjc4Y8u9sRYBeHZHlbnimxTV8-f_aVUolMJ1MvR8XhBaT_dApt4L4jq-nAnJLfSTR9jv5kKU9ECh2rbncdaXcgIWA_hg8cL5R3kUzYKLUquFbDhJVTnU0joZc6O22jdUv9grgj179BSsUHUanA0DYXBsK6DyCXGd9qto4CtLmXm1"
+  },
+  {
+    "domain": ".google.com",
+    "expiry": 1799832734,
+    "httpOnly": false,
+    "name": "SOCS",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "CAISHAgBEhJnd3NfMjAyNTEyMTAtMF9SQzEaAnBsIAEaBgiA_PfJBg"
+  },
+  {
+    "domain": ".google.com",
+    "expiry": 1781256733,
+    "httpOnly": true,
+    "name": "AEC",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "AaJma5uMzPztAIHNctZY8-ULSNyg4r486JJIivpwk8NiX_ODlIAxCiuKfw"
+  }
+]
