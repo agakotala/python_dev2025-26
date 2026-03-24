@@ -1,4 +1,4 @@
-Pakiet przykładów Python do szkolenia z uczenia maszynowego
+przykłady Python z uczenia maszynowego
 
 Pliki:
 - 00_workflow_przygotowanie_danych.py
@@ -11,11 +11,6 @@ Pliki:
 - 07_laczenie_klasyfikatorow.py
 - 08_wizualizacja_wynikow.py
 - requirements.txt
-
-Każdy plik:
-- jest samodzielnym przykładem,
-- zawiera bardzo szczegółowe komentarze po polsku,
-- może być użyty jako materiał na zajęcia lub do samodzielnej nauki.
 
 Uruchamianie:
 1. Zainstaluj zależności:
